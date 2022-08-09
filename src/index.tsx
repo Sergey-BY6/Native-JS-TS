@@ -3,16 +3,18 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import {sum} from "./Native_JS_Dimych/03/03";
+import {User} from './Native_JS_Dimych/06-07_callback_onClick_onChange_Destruction/06_callback';
+// import {sum} from "./Native_JS_Dimych/03/03";
 
-var a = sum
+// var a = sum
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   // <React.StrictMode>
-    <App />
+  //   <App />
+<User />
   // </React.StrictMode>
 );
 

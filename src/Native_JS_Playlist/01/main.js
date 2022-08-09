@@ -36,7 +36,7 @@ const students = [
     {name: "Ann"},
 ]
 const newStudents = (students.map(st => st.name === "Ann" ?{...st, name: "Joe"}  : st))
-console.log(newStudents === students)
+// console.log(newStudents === students)
 
 
 const arr = [1,2,3]
