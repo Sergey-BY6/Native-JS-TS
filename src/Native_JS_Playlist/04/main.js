@@ -31,6 +31,9 @@ const tasks = {
 }
 
 
+console.log(todoLists)
+console.log(tasks)
+
 // console.log(tasks[1].find(t => t.id === 11))
 // console.log([...tasks[1],  {id: 14, title: "LESS", isDone: false}])
 // console.log(tasks[1].map(t => t.id === 12 ? {...t, isDone: true} : t))

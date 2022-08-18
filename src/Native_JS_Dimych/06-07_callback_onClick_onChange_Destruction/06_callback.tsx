@@ -25,12 +25,10 @@ const focusLostHandkler = () => {
 
 
 
-
     return <div>
-        <textarea onChange={onNameCnagged} onBlur={focusLostHandkler}>Dimych</textarea>
-        <input onChange={onAgeCnagged} type={"number"}/>
-        <button name="delete" onClick={deleteUser}>delete</button>
+        {/*<textarea onChange={onNameCnagged} onBlur={focusLostHandkler}>Dimych</textarea>*/}
+        {/*<input onChange={onAgeCnagged} type={"number"}/>*/}
+        {/*<button name="delete" onClick={deleteUser}>delete</button>*/}
 
     </div>
-
 }
